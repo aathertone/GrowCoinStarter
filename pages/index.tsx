@@ -4,7 +4,6 @@ import KneeGrowPage from './KneeGrowPage'; // Adjust the path as needed
 
 function App() {
   return (
-    
     <div className="App">
       <KneeGrowPage />
     </div>

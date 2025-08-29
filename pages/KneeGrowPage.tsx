@@ -3,7 +3,7 @@
 import React from 'react';
 import { HeroSection } from '../components/HeroSection';
 import { StatCard } from '../components/StatCard';
-import { RoadmapSection } from '../components/RoadmapSection';
+import { RoadmapSection } from '../components/Roadmap';
 import { CommunitySection } from '../components/CommunitySection';
 
 const roadmapPhases = [
@@ -23,7 +23,7 @@ const roadmapPhases = [
       'Listings on mid-tier CEXs',
       'Expand influencer partnerships',
       'Community-driven campaigns',
-      'Target: Hit $100k–$250k MC',
+      'Target: Hit $100k -- $250k MC',
     ],
   },
   {
@@ -55,7 +55,7 @@ export default function KneeGrowPage() {
       <HeroSection
         coinName="KneeGrow"
         coinSymbol="$GROW"
-        description="The crypto that’s ready to pump 🚀. Watch $GROW soar and join the community of degens aiming for the moon."
+        description="The crypto that&apos;s ready to pump 🚀. Watch $GROW soar and join the community of degens aiming for the moon."
         coinImageSrc="https://images.pump.fun/coin-image/2WWrbmNsM6687n1ijWYMAXQWvVQ8sjhJdbfQPK2ypump?variant=600x600&ipfs=bafkreiftcf2l74ecsdlpkphxfa2v5fk2uhegnfuxjrutfighvldm6u3lj4&src=https%3A%2F%2Fipfs.io%2Fipfs%2Fbafkreiftcf2l74ecsdlpkphxfa2v5fk2uhegnfuxjrutfighvldm6u3lj4"
         buyLink="https://pump.fun/coin/2WWrbmNsM6687n1ijWYMAXQWvVQ8sjhJdbfQPK2ypump"
       />
