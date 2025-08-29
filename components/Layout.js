@@ -51,7 +51,20 @@ export default function Layout({ children }) {
 
   return (
     <div className="relative pb-24 overflow-hidden">
-      <div className="flex flex-col items-center w-full max-w-2xl mx-auto">
+      {/* Rotating Floating Coin */}
+      <a
+        href="#whitepaper"
+        className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-0"
+      >
+        <img
+          src="/coin.png" // put your coin image in the public folder and rename it coin.png
+          alt="Coin"
+          className="w-48 h-48 animate-spin-slow hover:scale-110 transition-transform duration-300"
+        />
+      </a>
+
+      {/* Page Content */}
+      <div className="relative z-10 flex flex-col items-center w-full max-w-2xl mx-auto">
         {children}
       </div>
     </div>
